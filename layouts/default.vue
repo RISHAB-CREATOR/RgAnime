@@ -38,12 +38,11 @@ const gotoRandomID = async () => {
         <v-list-subheader>More</v-list-subheader>
         <v-list-item title="About us" to="/about" />
         <v-list-item title="Privacy Policy" to="/privacy" />
-        <v-list-item title="Help" href="https://docs.amvstr.ml/help">
           <template #append>
             <v-icon icon="mdi-help" />
           </template>
         </v-list-item>
-        <v-list-item title="Github" href="https://github.com/amvstrm/amvstrm">
+        <v-list-item title="Github" href="https://github.com/RISHAB-CREATOR">
           <template #append>
             <v-icon icon="mdi-github" />
           </template>
@@ -71,7 +70,7 @@ const gotoRandomID = async () => {
     </v-main>
     <v-footer app height="auto" dense absolute>
       <span>
-        amvstrm Cambodia © Copyright {{ new Date().getFullYear() }}
+        RG Anime © Copyright {{ new Date().getFullYear() }}
       </span>
     </v-footer>
   </v-app>

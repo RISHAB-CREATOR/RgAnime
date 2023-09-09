@@ -9,11 +9,11 @@ const searchLoading = ref(true);
 
 useSeoMeta({
   ogTitle: "Search Anime",
-  ogDescription: "Search 100+ of animes to watch on amvstrm",
+  ogDescription: "Search 100+ of animes to watch on RG Anime",
   ogImage: "logo.png",
   ogUrl: "[og:url]",
   twitterTitle: "Search Anime",
-  twitterDescription: "Search 100+ of animes to watch on amvstrm",
+  twitterDescription: "Search 100+ of animes to watch on RG Anime",
   twitterImage: "logo.png",
   twitterCard: "summary",
 });

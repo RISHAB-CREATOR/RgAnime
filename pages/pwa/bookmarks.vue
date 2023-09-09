@@ -3,11 +3,11 @@ import { useStorage } from "@vueuse/core";
 
 useSeoMeta({
   ogTitle: "Bookmarker",
-  ogDescription: "amvstrm`s local bookmaker",
+  ogDescription: "RG Anime`s local bookmaker",
   ogImage: "[og:image]",
   ogUrl: "[og:url]",
-  twitterTitle: "Bookmarker - amvstrm",
-  twitterDescription: "amvstrm`s local bookmaker",
+  twitterTitle: "Bookmarker - RG Anime",
+  twitterDescription: "RG Anime`s local bookmaker",
   twitterImage: "[twitter:image]",
   twitterCard: "summary",
 });
@@ -165,10 +165,6 @@ const clearData = () => {
             <v-list-item title="Import" @click="importData" />
             <v-list-item title="Export" @click="exportData" />
             <v-list-item title="Clear All" @click="clear_dia = true" />
-            <v-list-item
-              title="Help"
-              href="https://docs.amvstr.ml/help/bookmark"
-            />
           </v-list>
         </v-menu>
       </v-col>
