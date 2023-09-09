@@ -38,6 +38,7 @@ const gotoRandomID = async () => {
         <v-list-subheader>More</v-list-subheader>
         <v-list-item title="About us" to="/about" />
         <v-list-item title="Privacy Policy" to="/privacy" />
+        <v-list-item title="Help" href="https://instagram.com/rishabnotfound">
           <template #append>
             <v-icon icon="mdi-help" />
           </template>
