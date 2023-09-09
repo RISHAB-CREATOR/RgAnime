@@ -6,7 +6,7 @@ useSeoMeta({
   ogDescription: "RG Anime`s local bookmaker",
   ogImage: "[og:image]",
   ogUrl: "[og:url]",
-  twitterTitle: "Bookmarker - amvstrm",
+  twitterTitle: "Bookmarker - RgAnime",
   twitterDescription: "RG Anime`s local bookmaker",
   twitterImage: "[twitter:image]",
   twitterCard: "summary",

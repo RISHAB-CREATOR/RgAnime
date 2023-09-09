@@ -23,25 +23,25 @@ useSeoMeta({
   ogTitle: `${
     anime.value?.title.userPreferred
       ? "Download " + anime.value?.title.userPreferred + " Episode " + getEP
-      : "amvstrm"
-  } - amvstrm`,
+      : "RgAnime"
+  } - RgAnime`,
   ogDescription: `${
     anime.value?.title.userPreferred
       ? "Download " + anime.value?.title.userPreferred + " Episode " + getEP
-      : "amvstrm"
-  } on amvstrm`,
+      : "RgAnime"
+  } on RgAnime`,
   ogImage: anime?.value.coverImage.large,
   ogUrl: useRoute().fullPath,
   twitterTitle: `${
     anime.value?.title.userPreferred
       ? "Download " + anime.value?.title.userPreferred + " Episode " + getEP
-      : "amvstrm"
-  } - amvstrm`,
+      : "RgAnime"
+  } - RgAnime`,
   twitterDescription: `${
     anime.value?.title.userPreferred
       ? "Download " + anime.value?.title.userPreferred + " Episode " + getEP
-      : "amvstrm"
-  } on amvstrm`,
+      : "RgAnime"
+  } on RgAnime`,
   twitterImage: anime?.value.coverImage.large,
   twitterCard: "summary",
 });
@@ -52,7 +52,7 @@ useHead({
   },
   title: anime.value?.title.userPreferred
     ? "Download " + anime.value?.title.userPreferred + " Episode " + getEP
-    : "amvstrm",
+    : "RgAnime",
 });
 </script>
 

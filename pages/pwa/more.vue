@@ -22,7 +22,7 @@
         </template>
       </v-list-item>
       <v-list-item
-        title="amvstrm"
+        title="RG Anime"
         :subtitle="new Date().getFullYear() + ' © RG Anime'"
       />
     </v-list>
